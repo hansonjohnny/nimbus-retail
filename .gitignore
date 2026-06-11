@@ -1,10 +1,33 @@
+# Node.js
 node_modules/
-.env
-*.log
+npm-debug.log*
+yarn-error.log*
+.npm/
+
+# Python
 __pycache__/
-*.pyc
-.DS_Store
-.idea/
-.vscode/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
 dist/
 build/
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
